@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import { db } from '../firebase';
+import { enterRoom } from '../features/appSlice';
 
 function SidebarOption({ Icon, title, addChannelOption, id }) {
    
